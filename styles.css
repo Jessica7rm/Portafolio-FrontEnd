@@ -1,0 +1,5 @@
+div#profile-blakground { 
+    display: flex;
+    z-index: 1;
+}
+  
