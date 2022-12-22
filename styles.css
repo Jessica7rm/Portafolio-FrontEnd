@@ -1,47 +1,80 @@
 nav {
-    border: 1px solid rgb(162, 145, 138);
     display: block;
     margin: 0px 0px;
 }
 
-.mat-card{
-    border-radius: 32px;
+#icons {
+    font-size: 20px;
+    font-weight:500;
+}
+
+#banner img {
+    padding: 20px;
+    background-color: rgb(205, 246, 244);
+}
+
+#first-card {
+    background-color: rgb(205, 246, 244);
     margin: 0px 0px;
     padding: 20px;
-    border: 3px solid #654321;   
+    z-index: auto;
 }
 
-
-
-div#profile-blakground { 
-    display: flex;
-    z-index: 1
-}
-
-div#profile-blakground img{ 
-    width: 100%;
-    border-radius: 32px 32px 0 0;
-    border: 10px solid #000000;
+#info-datos h1, h2 {
+    margin-top: 10px;
+    text-align: initial;
 }
 
 .profile-image {
     border-radius: 50%;
     width: 152px;
     height: 152px;
-    margin-top: 30px;
-    z-index: 1;
+    z-index: auto;
+}
+ 
+#descripción {
+    padding: 50px;
+    margin: auto;
+    text-align: center;
+ }
+
+
+ #Experiencia {
+    padding: 10px;
+    margin: auto;
+
+ } 
+
+ #Exper{
+    margin: 10px;
+ }
+
+
+ .col-md-4{
+    align-self: center;
+ }
+
+#skills {
+    padding: 30px;
+    margin-top: 10px;
+ }
+
+ #idiomas {
+    padding: 20px;
+    
 }
 
+h1 {
+   text-align: center;
+}
 
 #card{
     margin-left: auto;
     margin-right: auto;
     align-items: center;
+    justify-content: space-around;
     text-align: center;
-}
-
-h1 {
-   text-align: center;
+    padding: 40px;
 }
 
 footer{
