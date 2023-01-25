@@ -8,13 +8,14 @@ nav {
     font-weight:500;
 }
 
+
 #banner img {
     padding: 20px;
-    background-color: rgb(205, 246, 244);
+    background-color: #e4e2e1d5;
 }
 
 #first-card {
-    background-color: rgb(205, 246, 244);
+    background-color: #e4e2e1d5;
     margin: 0px 0px;
     padding: 20px;
     z-index: auto;
@@ -26,10 +27,10 @@ nav {
 }
 
 .profile-image {
-    border-radius: 50%;
-    width: 152px;
-    height: 152px;
-    z-index: auto;
+    border-radius: 30%;
+    width: 170px; 
+    height: 190px;
+    z-index: auto;  
 }
  
 #descripción {
@@ -49,9 +50,9 @@ nav {
     margin: 10px;
  }
 
-
  .col-md-4{
     align-self: center;
+    text-align: center;
  }
 
 #skills {
@@ -69,12 +70,20 @@ h1 {
 }
 
 #card{
-    margin-left: auto;
-    margin-right: auto;
+    column-gap: 10px;
+    row-gap: 10px;
     align-items: center;
-    justify-content: space-around;
     text-align: center;
     padding: 40px;
+    margin: 10px;
+}
+
+#card img{
+    padding: 10px;
+}
+
+.card {
+     background-color: #e4e2e1d5;
 }
 
 footer{
