@@ -39,15 +39,18 @@ nav {
     text-align: center;
  }
 
+ .contain {
+    display: flex;
+    margin: 2rem;
+ } 
 
- #Experiencia {
-    padding: 10px;
-    margin: auto;
-
+ .contain .row{
+   justify-content: center;
  } 
 
  #Exper{
-    margin: 10px;
+    padding: 1rem;
+    margin: 1rem;
  }
 
  .col-md-4{
