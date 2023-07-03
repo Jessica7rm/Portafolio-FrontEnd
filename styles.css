@@ -83,6 +83,8 @@ h1 {
 
 #card img{
     padding: 10px;
+    max-width: 25rem;
+    max-height: 15rem;
 }
 
 .card {
